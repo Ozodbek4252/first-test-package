@@ -1,10 +1,15 @@
 {
     "name": "ozodbek/mypackage",
     "description": "A simple Laravel package.",
+    "type": "library",
     "autoload": {
         "psr-4": {
             "Ozodbek\\MyPackage\\": "src/"
         }
+    },
+    "require": {
+        "php": ">=7.4",
+        "laravel/framework": "^8.0|^9.0|^10.0"
     },
     "extra": {
         "laravel": {
@@ -12,5 +17,12 @@
                 "Ozodbek\\MyPackage\\MyPackageServiceProvider"
             ]
         }
-    }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ozodbek",
+            "email": "ozodbekmcfly@gmail.com"
+        }
+    ]
 }
