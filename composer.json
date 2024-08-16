@@ -1,0 +1,16 @@
+{
+    "name": "ozodbek/mypackage",
+    "description": "A simple Laravel package.",
+    "autoload": {
+        "psr-4": {
+            "Ozodbek\\MyPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ozodbek\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
+    }
+}
